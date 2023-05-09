@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(150, 151, 152);
+}
+.btn1 ,.btn2 ,.btn3 ,.btn4{
+    position: absolute;
+    width: 80%;
+    left: 20px;
+    height: 32px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    background-color: rgb(46, 133, 46);
+}
+.hero{
+    margin-top: 30px;
+    height: 60vh;
+    width: 50%;
+    border: none;
+    box-shadow: 0 0 10px 10px rgba(107, 104, 104, 0.6);
+
+    background-color: rgb(134, 132, 132);
+    position: relative;
+}
+.btn4{
+    position: absolute;
+    bottom: 50px;
+}
+.btn3{
+    position: absolute;
+    bottom: 300px;
+}
+.btn2{
+    position: absolute;
+    bottom: 500px;
+}
